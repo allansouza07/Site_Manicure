@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: 0px;;
+}
+.cabecalho{
+    background-color: rgb(219, 190, 212);
+    height:100px;
+    ;
+}
+.logo{
+    position: absolute;
+    width:12%;
+    height:17%;
+    top:-20px;
+}
+.opcoes{
+    display:flex;
+    justify-content: right;
+}
+.opcoes img{
+    position: absolute;
+    width: 1.5%;
+    height:3%;
+    top:30px;
+    left:1800px;
+}
+.opcao {
+    font-size:25px;
+    margin: 35px;
+}
