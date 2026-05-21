@@ -26,6 +26,8 @@
     left:1800px;
 }
 .opcao {
-    font-size:25px;
+    font-size:15px;
     margin: 35px;
+    text-decoration: none;
+    color: black;
 }
