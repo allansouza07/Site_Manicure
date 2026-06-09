@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+.cabecalho{
+    background:rgb(219,190,212);
+    min-height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 6%;
+    gap:30px;
+    height:100px;
+}
+
+.logo{
+    width:300px;
+    height:200px;
+
+}
+
+.opcoes{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:clamp(12px, 2vw, 30px);
+    flex-wrap:wrap;
+}
+
+.opcao{
+    text-decoration:none;
+    color:black;
+}
+
+.opcao h1{
+    font-size:clamp(16px, 1.4vw, 24px);
+}
+
+.opcao:hover{
+    color:blueviolet;
+}
+
+.meio{
+    background: #fff8f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contato{
+    width:90%;
+    max-width:1000px;
+    text-align:center;
+}
+
+.contato h1{
+    color:#8b5d68;
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+.contato p{
+    color:#777;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:30px 25px;
+    border-radius:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.destaque{
+    background:#f4d9df;
+}
+
+.card i{
+    font-size:50px;
+    color:#d889a0;
+    margin-bottom:20px;
+}
+
+.card h2{
+    color:#8b5d68;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:25px;
+    line-height:1.5;
+}
+
+.card a{
+    display:inline-block;
+    padding:12px 24px;
+    text-decoration:none;
+    background:#d889a0;
+    color:white;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.card a:hover{
+    background:#c7768e;
+}
