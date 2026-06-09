@@ -1,0 +1,28 @@
+{
+  "name": "projetointegrador",
+  "version": "1.0.0",
+  "description": "Projeto Senac Largo Treze",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allansouza07/ProjetoIntegrador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/allansouza07/ProjetoIntegrador/issues"
+  },
+  "homepage": "https://github.com/allansouza07/ProjetoIntegrador#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "5.1.0",
+    "mysql2": "3.15.2",
+    "nodemon": "3.1.14"
+  }
+}
