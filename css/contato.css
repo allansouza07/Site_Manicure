@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: 0px;;
+}
+.cabecalho{
+    background-color: rgb(219, 190, 212);
+    height:100px;
+    position: fixed;
+    width:1920px;
+    z-index: 999;
+}
+.cabecalho{
+    background-color: rgb(219, 190, 212);
+    height:100px;
+    position: fixed;
+    width:1920px;
+    z-index: 999;
+}
+.logo{
+    position: absolute;
+    width:12%;
+    height:17%;
+    top:-20px;
+    position: fixed;
+}
+.opcoes{
+    display:flex;
+    justify-content: right;
+    
+}
+.opcoes img{
+    position: absolute;
+    width: 1.5%;
+    height:3%;
+    top:30px;
+    left:1800px;
+}
+
+.opcao {
+    font-size:15px;
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.contato_mensagem{
+    position: relative;
+    height:100px;
+    background-color: rgb(169, 122, 212);
+    justify-content: center;
+    display: flex;
+    top:100px;
+    align-items: center;
+}
+.contato_mensagem p{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+}
+.contato_mensagem2{
+
+}

@@ -3,20 +3,28 @@
     padding:0px;
     box-sizing: 0px;;
 }
+body{
+    
+    
+}
 .cabecalho{
     background-color: rgb(219, 190, 212);
     height:100px;
-    ;
+    position: fixed;
+    width:1920px;
+    z-index: 999;
 }
 .logo{
     position: absolute;
     width:12%;
     height:17%;
     top:-20px;
+    position: fixed;
 }
 .opcoes{
     display:flex;
     justify-content: right;
+    
 }
 .opcoes img{
     position: absolute;
@@ -25,11 +33,13 @@
     top:30px;
     left:1800px;
 }
+
 .opcao {
     font-size:15px;
     margin: 35px;
     text-decoration: none;
     color: black;
+    font-family:'Times New Roman', Times, serif;
 }
 #logomain{
     position: absolute;
@@ -78,12 +88,21 @@
     background-color: pink;
     position: absolute;
     left:1150px;
-    width:700px;
+    width:680px;
     height: 700px;
     top:200px;
 }
-#cliente_foto{
-    width:600px;
-    height: 600px;
+#cliente_foto img{
+    width:650px;
+    height: 650px;
     position: absolute;
+    left:1100px;
+    top:250px;
+}
+#oo{
+    top:1000px;
+    position: relative;
+    width:1000px;
+    height: 1000px;
+    background-color: blue;
 }
