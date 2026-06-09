@@ -17,11 +17,13 @@ body{
     justify-content:space-between;
     padding:15px 6%;
     gap:30px;
+    height:100px;
 }
 
 .logo{
-    width:clamp(110px, 12vw, 170px);
-    height:auto;
+    width:300px;
+    height:200px;
+
 }
 
 .opcoes{
@@ -59,15 +61,20 @@ body{
 }
 
 #logomain{
-    width:clamp(180px, 22vw, 350px);
-    height:auto;
+    position: relative;
+    width:400px;
+    height:300px;
     margin-bottom:45px;
+    top:-90px;
+    left:110px;
 }
 
 #mensagem_main{
     font-size:clamp(32px, 4vw, 58px);
     line-height:1.15;
     margin-bottom:25px;
+    position: relative;
+    top:-200px;
 }
 
 #mensagem_main2{
@@ -75,6 +82,8 @@ body{
     line-height:1.5;
     color:#444;
     margin-bottom:50px;
+    position: relative;
+    top:-200px;
 }
 
 #botao_agendamento{
@@ -87,6 +96,8 @@ body{
     align-items:center;
     justify-content:center;
     transition:.3s;
+    position: relative;
+    top:-200px;
 }
 
 #botao_agendamento:hover{
@@ -101,19 +112,38 @@ body{
 }
 
 .area-foto{
+    position: relative;
     background:pink;
     border-radius:24px;
     padding:35px;
     display:flex;
     align-items:center;
     justify-content:center;
+    display: grid;
 }
 
 #cliente_foto img{
-    width:100%;
+    width:500px;
+    height:500px;
     max-width:560px;
     border-radius:20px;
-    display:block;
+    display:flex;
+    z-index: 2;
+}
+#fundo_neutro{
+    background-color: pink;
+    position: absolute;
+    left:1150px;
+    width:600px;
+    height: 600px;
+    top:200px;
+}
+#cliente_foto{
+    width:600px;
+    height: 600px;
+    position: relative;
+    left:100px;
+    
 }
 
 @media(max-width:900px){
@@ -139,4 +169,5 @@ body{
     #botao_agendamento{
         margin:auto;
     }
+    
 }
