@@ -15,6 +15,44 @@ body{
     position:relative;
 }
 
+.cabecalho{
+    background:rgb(219,190,212);
+    min-height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 6%;
+    gap:30px;
+    height:100px;
+}
+
+.logo{
+    width:300px;
+    height:200px;
+
+}
+
+.opcoes{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:clamp(12px, 2vw, 30px);
+    flex-wrap:wrap;
+}
+
+.opcao{
+    text-decoration:none;
+    color:black;
+}
+
+.opcao h1{
+    font-size:clamp(16px, 1.4vw, 24px);
+}
+
+.opcao:hover{
+    color:blueviolet;
+}
+
 .logo{
     width:180px;
     position:absolute;

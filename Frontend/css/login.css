@@ -7,12 +7,22 @@
 
 body{
     background:#f5f5f5;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 
 .cabecalho{
-    background-color:rgb(219,190,212);
+    background:rgb(219,190,212);
+    min-height:100px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:15px 6%;
+    gap:30px;
     height:100px;
-    position:relative;
 }
 
 .logo{
@@ -22,6 +32,27 @@ body{
     top:-10px;
 }
 
+.opcoes{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:clamp(12px, 2vw, 30px);
+    flex-wrap:wrap;
+}
+
+.opcao{
+    text-decoration:none;
+    color:black;
+}
+
+.opcao h1{
+    font-size:clamp(16px, 1.4vw, 24px);
+}
+
+.opcao:hover{
+    color:blueviolet;
+}
+
 .container{
     width:450px;
     margin:80px auto;
@@ -29,6 +60,9 @@ body{
     padding:40px;
     border-radius:20px;
     box-shadow:0 0 15px rgba(0,0,0,0.15);
+
+    /* Faz o conteúdo ocupar o espaço disponível */
+    flex:1;
 }
 
 .container h1{
@@ -83,15 +117,20 @@ p a{
     color:#555;
     text-decoration:none;
 }
+
 #rodape{
-        background:rgb(219,190,212);
-        height:100px;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+    background:rgb(219,190,212);
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:auto;
 }
 
 #rodape p{
-        font-size:18px;
-        color:black;
+    font-size:18px;
+    color:black;
+    margin:0;
+    text-align:center;
+    padding:0 20px;
 }
