@@ -195,9 +195,57 @@ body{
     margin-bottom:20px;
 }
 
+
+
+
+#localizacao{
+    background-color: rgb(235, 225, 225);
+    display: flex;
+    justify-content: space-between;
+}
+#maps{
+    height:100%;
+    width:500px;
+    margin-left: 100px;
+    
+    
+}
+
+#loc{
+    position: relative;
+    margin-right:100px;
+    margin-left:100px;
+
+}
+#loc h2{
+    font-size:35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#loc h3{
+     font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#loc p{
+    font-family: Georgia, serif;
+    font-weight: 400px;
+    font-size:20px;
+}
+.btn-local{
+    display: inline-block;
+    background-color: #9b2be8;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 55px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+
 #rodape{
     background:rgb(219,190,212);
-
+    margin-top: 100px;;
     height:100px;
 
     display:flex;
@@ -210,6 +258,27 @@ body{
 
 #rodape p{
     font-size:18px;
+}
+.btn-whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(192, 137, 180);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    text-decoration: none;
+    z-index: 9999;
+    box-shadow: 0 4px 15px rgba(0,0,0,.25);
+}
+
+.btn-whatsapp:hover{
+    transform: scale(1.08);
 }
 
 @media (max-width:1024px){
