@@ -326,6 +326,54 @@ body{
     transform: scale(1.08);
 }
 
+
+
+@media screen and  (max-width:1500px) {
+
+    #publicidade{
+    margin-top: 150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #8547ad;
+    height:150px;
+}
+#publicidade img{
+    width:400px;
+    height:300px;
+}
+#publicidade p{
+    color:white;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#carrossel{
+    width:100%;
+    overflow:hidden;
+}
+.unha{
+    display: flex;
+    gap: 20px;
+    animation: slide 20s linear infinite;
+    width: max-content;
+    margin-bottom: 100px;
+}
+.unha img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+}
 @media (max-width:1024px){
 
     .meio{
